@@ -27,8 +27,8 @@ export default function App() {
       <NativeBaseProvider theme={theme}>
         <ScrollView bg="muted.800" height="100%" display="flex">
           <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="Dashboard" component={Dashboard} />
             <Stack.Screen name="Login" component={LoginPage} />
+            <Stack.Screen name="Dashboard" component={Dashboard} />
           </Stack.Navigator>
         </ScrollView>
       </NativeBaseProvider>
